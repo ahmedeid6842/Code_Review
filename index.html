@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodCamp Survey Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+<br>
+<form action="" id="Survey-from"></form>
+<label for="name">Name</label>
+<input type="text" name="name" id="name" placeholder="Enter your Name" required>
+
+<br>
+
+<label for="email">E-mail</label>
+<input type="email" name="email" id="email" placeholder="*******@gmail.com" required>
+
+<br>
+
+<label for="age">Age</label>
+<input type="age" name="age" id="age" placeholder="Enter your age" required>
+
+<br>
+
+<p>Which option best describes your current role?</p>
+<select name="role" id="drop down">
+    <option disabled selected value> Select current role</option>
+    <option value="student">Student</option>
+    <option value="Fulltime job">Fulltime job</option>
+    <option value="Fulltime learner">Fulltime learner</option>
+    <option value="Prefer not to say">Prefer not to say</option>
+    <option value="Other">Other</option>
+</select>
+<br>
+<p>Would you recommend freeCodeCamp to a firend</p>
+<input name = "user-recommend" value="Definitly" type="radio" checked>
+<input name = "user-recommend" value="Maybe" type="radio">
+<input name = "user-recommend" value="Not sure" type="radio">
+
+<br>
+<p>What is your favorite feature of freeCodeCamp</p>
+<select id="most-like" name="mostLike" required>
+<option disabled selected value> Select an option</option>
+    <option value="chellanges">Chellanges</option>
+    <option value="projects">Projects job</option>
+    <option value="community"> Community</option>
+    <option value="open-source">Open source</option>
+</select>
+
+<br>
+<p>What would you like to see improved?</p>
+<label>
+    <input name="prefer" value="front-end-developer" type="checkbox">
+    Front-end Projects
+</label>
+<label>
+    <input name="prefer" value="back-end-developer" type="checkbox">
+    Back-end Projects
+</label>
+<label>
+    <input name="prefer" value="data-visulaztion" type="checkbox">
+    data visulaztion
+</label>
+<label>
+    <input name="prefer" value="chellanges" type="checkbox">
+    chellanges
+</label>
+<label>
+    <input name="prefer" value="opensource-community" type="checkbox">
+    Open Source community
+</label>
+<label>
+    <input name="prefer" value="gitter-help-room" type="checkbox">
+    Gitter help room
+</label>
+<label>
+    <input name="prefer" value="Videos" type="checkbox">
+    videos
+</label>
+<label>
+    <input name="prefer" value="City-meetup" type="checkbox">
+    City-meetup
+</label>
+<label>
+    <input name="prefer" value="Wiki" type="checkbox">
+    Wiki
+</label>
+<label>
+    <input name="prefer" value="Forum" type="checkbox">
+    Forum
+</label>
+<label>
+    <input name="prefer" value="additional-courses" type="checkbox">
+    Additional Courses
+</label>
+
+<br>
+<p>Any comments or suggestions?</p>
+<textarea id="comments" placeholder="Enter your comment here...."></textarea>
+
+<br>
+<button type="submit" id="submit">Submit</button>
+</body>
+</html>
